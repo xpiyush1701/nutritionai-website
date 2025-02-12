@@ -1,29 +1,90 @@
-/* Apply pastel colours and styling */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7fdfc; /* Light pastel green */
+    background-color: white;
     color: black;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Header Styles */
 header {
-    background-color: #ffdee2; /* Pastel pink */
+    background-color: #A8D5BA; /* Pastel Green */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #F1A7C4; /* Pastel Pink */
+    font-size: 36px;
+}
+
+header p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #F1A7C4; /* Pastel Pink */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
     color: black;
-    text-align: center;
-    padding: 20px;
+    font-size: 18px;
 }
 
+nav ul li a:hover {
+    color: #A8D5BA; /* Pastel Green */
+}
+
+/* Section Styles */
 section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
 }
 
+#home {
+    background-color: #A8D5BA; /* Pastel Green */
+}
+
+#about {
+    background-color: #F1A7C4; /* Pastel Pink */
+}
+
+#services {
+    background-color: #E8F9F1; /* Lighter green */
+}
+
+#contact {
+    background-color: #F1F1F1; /* Light gray */
+}
+
+/* Footer Styles */
 footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 10px;
-    background-color: #ffdee2; /* Pastel pink */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
